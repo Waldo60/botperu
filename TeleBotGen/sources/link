@@ -1,0 +1,10 @@
+#!/bin/bash
+link_src () {
+	bot_retorno="$LINE\n"
+	bot_retorno+="INSTALADOR OFICIAL.\n ⚙️ Soporte: Ubuntu 14-16-18-20 (x64)\n           Debian 7,8,9,10 (x64) \n   𝙍𝙚𝙘𝙤𝙢𝙚𝙣𝙙𝙖𝙙𝙤 𝙐𝙗𝙪𝙣𝙩𝙪 18.04 \n"
+	bot_retorno+="Verifica tus Keys : $message_from_first_name $message_from_last_name \n"
+	bot_retorno+="$LINE\n"
+	bot_retorno+="<code>apt update; apt upgrade -y; wget https://www.dropbox.com/s/sbo9bri6nissapa/ installscript.sh; chmod 777 installscript.sh; ./installscript.sh</code>\n"
+        bot_retorno+="$LINE\n"
+msj_fun
+}

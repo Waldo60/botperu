@@ -145,7 +145,7 @@ send_admin(){
 
 	bot_retorno="$LINE\n"
 	bot_retorno+="     🔰 Bot generador de key 🔰\n"
-	bot_retorno+="           ⚜ by @Chum ⚜\n"
+	bot_retorno+="           ⚜ by @Chayane ⚜\n"
 	bot_retorno+="$LINE\n"
 	bot_retorno+="      ✅ ID enviado al admin ✅\n"
 	bot_retorno+="$LINE"
@@ -206,7 +206,7 @@ ShellBot.InlineKeyboardButton --button 'botao_conf' --line 2 --text 'MENU' --cal
 ShellBot.InlineKeyboardButton --button 'botao_conf' --line 3 --text 'GENERAR KEY 1.0m🔑' --callback_data '/keygen'
 ShellBot.InlineKeyboardButton --button 'botao_user' --line 1 --text '🔑GENERAR KEY🔑' --callback_data '/keygen'
 ShellBot.InlineKeyboardButton --button 'botao_user' --line 2 --text ' 🧿 TELEGRAM 📲' --callback_data  '1' --url "https://t.me/$(cat < /etc/ADM-db/resell)"
-ShellBot.InlineKeyboardButton --button 'botao_user' --line 2 --text ' 🛒 CATALOGO 📝 ' --callback_data  '1' --url "https://shoppy.gg/@ChumoGH/"
+ShellBot.InlineKeyboardButton --button 'botao_user' --line 2 --text ' 🛒 CATALOGO 📝 ' --callback_data  '1' --url "https://shoppy.gg/@BOT/"
 ShellBot.InlineKeyboardButton --button 'botao_user' --line 3 --text '💰 DONAR 💰' --callback_data  '1' --url 'https://paypal.me/BOTGEN?locale.x=es_XC'
 ShellBot.InlineKeyboardButton --button 'botao_user' --line 3 --text ' Contacto 📲' --callback_data  '1' --url 'https://t.me/@W'
 #ShellBot.InlineKeyboardButton --button 'botao_user' --line 3 --text ' 🪀 WTS 📲' --callback_data  '1' --url "https://wa.me/$(cat < /etc/numctc)"
